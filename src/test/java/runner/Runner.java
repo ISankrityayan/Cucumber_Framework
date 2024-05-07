@@ -14,7 +14,8 @@ import io.cucumber.junit.CucumberOptions;
 	    },
 	    glue = "StepDefinition",
 	    tags = "@AddToCart or @SignUpToAmazon or @SortProductsTest",
-	    		 plugin = {"pretty","html:target/cucumberAmazon.html"}
+	    		 plugin = {"pretty","html:target/cucumberAmazon.html","json:target/cucumberAmazon.json"},
+	                 
 	)
 	public class Runner {
 	
